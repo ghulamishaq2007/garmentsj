@@ -1,9 +1,8 @@
-
 document.addEventListener('contextmenu', function(e) {
- e.preventDefault();
- });
+  e.preventDefault();
+});
 
- Common shortcuts
+// Common shortcuts
 document.addEventListener('keydown', function(e) {
   // F12, Ctrl+Shift+I, Ctrl+Shift+J, Ctrl+U
   if (e.key === 'F12' ||
@@ -13,4 +12,5 @@ document.addEventListener('keydown', function(e) {
     // alert('Inspecting disabled.');
   }
 });
+
 
